@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav{
+        display: flex;
+        height: auto;
+    }
+    .menu,.img_logo{
+        width: 40%;
+        margin: auto;
+        padding: 20px;
+    }
+    .menu>a{
+        padding: 10px;
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        
+    }
+    
+    .section{
+        height: auto;
+        display: flex;
+    }
+    .left,.right{
+        display: inline;
+        margin-top: 50px;
+        width: 40%;
+        margin: auto;
+    }
+   
+    h1{
+        font-size: 50px;
+    }
+    input[type=text],[type=password]{
+        width: 250px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .btn{
+        width: 100px;
+        border-radius: 30px;
+        height: 50px;
+        background-color: blue;
+        font-size: 20px;
+        color: white;
+        border-color: white;
+        margin-right: 20px;
+    }
+    a{
+        color: blue;
+    }
+    .img1{
+        margin-right: 10px;
+    }
+    .img2{
+        margin-top: 20px;
+    }
+    div{
+        display: flex;
+    }
+    div>p{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    p{
+        font-size: 14px;
+        
+    }
+    p>a{
+        padding:16px;
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+    }
+    #countries{
+        opacity: 0.7;
+    }
+
+    #countries:hover{
+        opacity: 1;
+        text-decoration: underline;
+        line-height: 2px;
+    }
+    
+</style>
+<body>
+<div class="nav">
+    <div class="img_logo">
+        <img src="img/1.png" alt="" height="50px" width="50px">
+    </div>
+    <div class="menu">
+        <a href="https://www.messenger.com/features">Features</a>
+        <a href="https://www.messenger.com/desktop">Desktop app</a>
+        <a href="https://www.messenger.com/privacy">Privacy and safety</a>
+        <a href="https://developers.facebook.com/products/messenger/">For developers</a>
+    </div>
+</div>
+
+<div class="section">
+    <div class="left"><h1>Hang out<br>anytime,<br>anywhere</h1>
+            Messenger makes it easy and fun to stay close to your<br> favourite people.<br><br><br>
+            <input type="text" placeholder="Email address or phone number"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            
+            <button class="btn">Log In</button>
+            
+            <a href="">Forgotten your password?</a><br><br>
+            <input type="checkbox">Keep me signed in <br><br>
+            <div>
+                <img src="https://shorturl.at/moAN0" class="img1">
+                <img src="https://shorturl.at/EUV24" alt="" height="40px" width="100px">
+            </div>
+    </div>
+    <div class="right">
+        <img src="https://shorturl.at/xzHQT" alt="" height="700" width="550px" class="img2">
+    </div>
+
+</div>
+
+<div>
+    <p>
+&copy;<b> Meta 2023.</b> The Apple and Google Play logos are trademarks of their respective owners.
+
+    <a href="https://www.facebook.com/privacy/policy"> Privacy Policy </a>
+    <a href="https://messenger.com/policy/cookies"> Cookie Policy </a>
+    <a href="https://www.facebook.com/policies/?ref=pf"> Terms </a> 
+
+    
+
+        <select id="countries">
+            <option value="English (UK)">English (UK)</option>
+            <option value="Français">Français</option>
+            <option value="العربية">العربية</option>
+            <option value="Čeština">Čeština</option>
+            <option value="Dansk">Dansk</option>
+            
+        </select>
+    <img src="https://shorturl.at/xzV09" alt="From Meta Logo" height="50px" width="150px">
+</p>
+</div>
+</body>
+</html>
